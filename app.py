@@ -27,17 +27,17 @@ with st.sidebar:
     st.header("Configuration")
     
     # Clé API OpenAI
-    #openai_api_key = st.text_input(
-     #   "Clé API OpenAI",
-    #  value=os.getenv("OPENAI_API_KEY", ""),
-     #   type="password",
-      #  help="Entrez votre clé API OpenAI ou configurez-la dans le fichier .env"
-    #)
+    openai_api_key = st.text_input(
+       "Clé API OpenAI",
+      value=os.getenv("OPENAI_API_KEY", ""),
+       type="password",
+      help="Entrez votre clé API OpenAI ou configurez-la dans le fichier .env"
+    )
     
     # Modèle OpenAI
     model_choice = st.selectbox(
         "Modèle OpenAI",
-        ["gpt-4o-mini", "gpt-4o", "gpt-3.5-turbo"],
+        ["gpt-5-mini", "gpt-4o", "gpt-3.5-turbo","gpt-5"],
         index=0,
         help="Choisissez le modèle OpenAI à utiliser"
     )
@@ -323,4 +323,5 @@ st.markdown(
     </div>
     """,
     unsafe_allow_html=True
+
 )
