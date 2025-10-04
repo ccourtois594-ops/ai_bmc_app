@@ -117,4 +117,3 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 ---
 
 
-🤖 Généré avec l'assistance de Memex - [memex.tech](https://memex.tech)
