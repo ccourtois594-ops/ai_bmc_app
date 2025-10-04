@@ -1,6 +1,6 @@
 # 🎯 AI BMC
 
-Une application web Python qui utilise l'intelligence artificielle d'OpenAI pour transformer vos proejts en Business Model Canvas détaillés et réalisables.
+Une application web Python qui utilise l'intelligence artificielle d'OpenAI pour transformer vos projets en Business Model Canvas détaillés et réalisables.
 
 ## ✨ Fonctionnalités
 
@@ -115,5 +115,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 - Partager vos retours d'expérience
 
 ---
+
 
 
