@@ -1,16 +1,14 @@
-# 🎯 AI Goal Planner
+# 🎯 AI BMC
 
-Une application web Python qui utilise l'intelligence artificielle d'OpenAI pour transformer vos objectifs et projets en plans d'action détaillés et réalisables.
+Une application web Python qui utilise l'intelligence artificielle d'OpenAI pour transformer vos proejts en Business Model Canvas détaillés et réalisables.
 
 ## ✨ Fonctionnalités
 
-- **Génération automatique de todo lists** basée sur vos objectifs
+- **Génération automatique de BMC** basée sur votre activité
 - **Niveaux de détail personnalisables** (Basique, Détaillé, Très détaillé)
-- **Horizons temporels flexibles** (1 semaine à 1 an)
 - **Interface intuitive** avec Streamlit
-- **Historique des plans** générés
-- **Export des plans** en TXT et JSON
-- **Support de plusieurs modèles OpenAI** (GPT-4, GPT-3.5-turbo)
+- **Export des BMC** en TXT et JSON
+- **Support de plusieurs modèles OpenAI** (GPT-5, GPT-3.5-turbo etc...)
 
 ## 🚀 Installation et utilisation
 
@@ -56,43 +54,24 @@ L'application sera accessible à l'adresse : http://localhost:8501
 
 ## 📝 Exemple d'utilisation
 
-1. **Décrivez votre objectif** :
+1. **Décrivez votre activine ** :
    ```
-   "Créer une application mobile de gestion des tâches avec React Native"
+   "Une activité de Boucher-charcutier à Angers"
    ```
 
 2. **Configurez les paramètres** :
    - Niveau : Détaillé
-   - Horizon : 3 mois
    - Modèle : GPT-4o-mini
 
 3. **Générez votre plan** et obtenez :
    - Vue d'ensemble du projet
-   - Phases détaillées avec tâches et sous-tâches
+   - BMC détaillées 
    - Estimations de temps
    - Ressources nécessaires
    - Critères de réussite
    - Gestion des risques
+   - prompt pour logo
 
-## 🎯 Types d'objectifs supportés
-
-- **Projets techniques** : Développement d'applications, sites web
-- **Apprentissage** : Nouvelles compétences, formations
-- **Business** : Lancement de produits, stratégies marketing
-- **Personnel** : Objectifs de vie, habitudes
-- **Événements** : Organisation, planification
-
-## 📊 Structure des plans générés
-
-Chaque plan d'action contient :
-- **Vue d'ensemble** stratégique
-- **Phases détaillées** avec timeline
-- **Tâches et sous-tâches** actionables
-- **Estimations temporelles**
-- **Ressources nécessaires**
-- **Critères de réussite**
-- **Gestion des risques**
-- **Indicateurs de progression**
 
 ## 💾 Export et sauvegarde
 
@@ -136,5 +115,6 @@ Les contributions sont les bienvenues ! N'hésitez pas à :
 - Partager vos retours d'expérience
 
 ---
+
 
 🤖 Généré avec l'assistance de Memex - [memex.tech](https://memex.tech)
